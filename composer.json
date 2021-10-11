@@ -1,0 +1,19 @@
+{
+    "name": "codekraken/oop",
+    "description": "Curso de programaci\u0000n horientada a objetos",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Leonard Lopez",
+            "email": "dev.leonardm@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": ["src/helpers.php"],
+        "psr-4": {
+            "Styde\\": "src/"
+        }
+    }
+}
